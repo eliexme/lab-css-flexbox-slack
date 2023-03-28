@@ -4,9 +4,6 @@ body{
     font-family: Helvetica, sans-serif
 }
 
-body *{
-    font-size: 1.5rem;
-}
 
 p{
     margin: 0;
@@ -40,7 +37,7 @@ nav {
 }
 
 .nav-logo{
-    height: 30px;
+    height: 25px;
 }
 
 .nav-button{
@@ -48,9 +45,9 @@ nav {
 }
 
 h1{
-    margin: 0 auto;
+    margin: 0 0 5% 0;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.3rem;
 }
 
 
@@ -60,14 +57,15 @@ h1{
     padding-top: 5%;
 }
 
-.header-button{
+.pair-button{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
+    padding: 5% 0;
 }
 
 .gen-button{
-    height: 70px;
+    height: 40px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -80,10 +78,30 @@ h1{
     height: 50%;
 }
 
+.white-button{
+    background-color: white;
+    color: #540B51;
+    border: 1px solid #540B51 ;
+    font-weight: 600;
+}
+
+.blue-button{
+    background-color: #4285F4;
+    color: lightgray;
+    font-weight: 600;
+}
+
+.purple-button{
+    background-color: #540B51;
+    color: lightgray;
+    border: 1px solid lightgray ;
+    font-weight: 600; 
+}
+
 #companies p{
     text-align: center;
-    font-size: 1.8rem;
-    padding: 5% 0;
+    font-size: 1.2rem;
+    padding: 10% 0;
     font-weight: 550;
 }
 
@@ -97,7 +115,7 @@ h1{
 }
 
 .companies>img{
-    height: 40px;
+    height: 30px;
     margin: 0.5%;
 }
 
@@ -106,13 +124,44 @@ h1{
 }
 
 h2, h3{
-    font-size: 3rem;
+    font-size: 1.8rem;
+    margin: 10% 0;
 }
 
 .ivory a{
     text-decoration: none;
     color: #2E71A6 ;
 }
+
+.center-section{
+    padding: 5% 0;
+    text-align: center;
+}
+
+ul {
+    padding: 0;
+}
+
+li{
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    padding: 5% 0;
+}
+
+.percentage{
+    font-size: 2rem;
+    color: #540B51;
+}
+
+
+
 
 
 
